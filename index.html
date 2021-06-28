@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz App </title>
+    <link rel="stylesheet" href="./quiz.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="./quiz.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
+    </head>
+  <body>
+      <h1>The Quiz App</h1>
+      <form name="quiz" id="container">
+          <div id="ques">
+              <p id="question">Q1. Which was not one of Voldemort's Horcruxes ?</p>
+              <label><p><input type="radio" name="q1" value="Harry">Harry</p></label>
+              <label><p><input type="radio" name="q1" value="Nagini">Nagini</p></label>
+              <label><p><input type="radio" name="q1" value="Helga's Diadem">Helga's Diadem</p></label>
+              <label><p><input type="radio" name="q1" value="Tom Riddle's Diary">Tom Riddle's Diary</p></label>
+            </div>
+          <div  id="ques">
+            <p id="question">Q2. Which of these are not one of Hagrid's many pets ?</p>
+            <label><p><input type="radio" name="q2" value="Grawp">Grawp</p></label>
+            <label><p><input type="radio" name="q2" value="Fluffy">Fluffy</p></label>
+            <label><p><input type="radio" name="q2" value="Aragog">Aragog</p></label>
+            <label><p><input type="radio" name="q2" value="Noberta">Noberta</p></label>
+           
+        </div>
+        <div  id="ques">
+            <p id="question">Q3. Which class did Severus Snape always want to teach ?</p>
+            <label><p><input type="radio" name="q3" value="Potions">Potions</p></label>
+            <label><p><input type="radio" name="q3" value="Charms">Charms</p></label>
+            <label><p><input type="radio" name="q3" value="Defense Against Dark Arts">Defense Against Dark Arts</p></label>
+            <label><p><input type="radio" name="q3" value="Transfiguration">Transfiguration</p></label>
+           
+        </div>
+        <div  id="ques">
+            <p id="question">Q4. Which Hogwarts house did Moaning Myrtle belong in ?</p>
+            <label><p><input type="radio" name="q4" value="Gryffindor">Gryffindor</p></label>
+            <label><p><input type="radio" name="q4" value="Slytherin">Slytherin</p></label>
+            <label><p><input type="radio" name="q4" value="Hufflepuff">Hufflepuff</p></label>
+            <label><p><input type="radio" name="q4" value="Ravenclaw">Ravenclaw</p></label>
+           
+        </div>
+        <div  id="ques">
+            <p id="question">Q5. What class did Neville end up teaching in Hogwarts ?</p>
+            <label><p><input type="radio" name="q5" value="Astronomy">Astronomy</p></label>
+            <label><p><input type="radio" name="q5" value="Herbology">Herbology</p></label>
+            <label><p><input type="radio" name="q5" value="Charms">Charms</p></label>
+            <label><p><input type="radio" name="q5" value="Muggle Studies">Muggle Studies</p></label>
+            
+        </div>
+        <button id="btn" onclick="check()">Submit</button>
+      </form>
+      <p id="result"></p>
+  </body>
+</html>
